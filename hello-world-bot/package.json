@@ -1,0 +1,27 @@
+{
+  "name": "hello-world-bot",
+  "version": "1.0.0",
+  "description": "This is a \"Hello, world!\" bot for the discord app.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runfast2718r/hello-world-bot.git"
+  },
+  "keywords": [
+    "hello-world",
+    "discord",
+    "bot"
+  ],
+  "author": "runfaster",
+  "bugs": {
+    "url": "https://github.com/runfast2718r/hello-world-bot/issues"
+  },
+  "homepage": "https://github.com/runfast2718r/hello-world-bot#readme",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.2.1"
+  }
+}
